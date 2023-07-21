@@ -21,9 +21,9 @@ namespace Day2_Ex1
             id = int.Parse(Console.ReadLine());
             Console.WriteLine("Employee Name: ");
             EmployeeName = Console.ReadLine();
-            Console.WriteLine("Employee Gender: ");
+            Console.WriteLine("Employee Gender (M/F/Other): ");
             EmployeeGender=char.Parse(Console.ReadLine());  
-            Console.WriteLine("DOJ: ");
+            Console.WriteLine("DOJ (DD/MM/yyyy): ");
             DOJ= DateTime.Parse(Console.ReadLine());
             Console.WriteLine("Employee Salary: ");
             EmployeeSalary=double.Parse(Console.ReadLine());
@@ -35,8 +35,8 @@ namespace Day2_Ex1
             {
                 Console.WriteLine("You will have to pay 15% tax");
             }
-            Console.WriteLine("ID: \t" + id + "\n Employee Name: " + EmployeeName + "\n Employee Gender: \t" + EmployeeGender +
-                "\n  Employee Salary: \t" + EmployeeSalary + "\nDOJ: \t" + DOJ);
+            Console.WriteLine("ID: \t" + id + "\nEmployee Name: " + EmployeeName + "\nEmployee Gender: \t" + EmployeeGender +
+                "\nEmployee Salary: \t" + EmployeeSalary + "\nDOJ: \t" + DOJ);
             Console.ReadLine(); 
 
         }
